@@ -5,11 +5,17 @@
 
 get_header();
 ?>
+<style>
+    .arrayContainer {
+        margin: 200px;
+    }
 
+</style>
 
 <section id="primary" class="content-area">
     <main id="main" class="site-main">
 
+        <button onclick="goBack()">Tilbage</button>
         <section class="arrayContainer"></section>
 
         <template>
@@ -31,6 +37,10 @@ get_header();
         const retUrl = "http://johanrives.dk/morrow/wp-json/wp/v2/ret?per_page=100";
         const kategori = new URLSearchParams(window.location.search).get("kategori");
 
+        function goBack() {
+        window.history.back();
+        }
+
         async function getJson() {
             const data = await fetch(retUrl);
             retter = await data.json();
@@ -38,7 +48,7 @@ get_header();
         }
 
         function visRetter() {
-            console.log(kategori);
+            console.log(retter);
             let temp = document.querySelector("template");
             let container = document.querySelector(".arrayContainer");
             container.innerHTML = "";

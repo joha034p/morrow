@@ -20,13 +20,13 @@ get_header();
         <div class="titelWrap">
             <h2>I nærheden</h2>
             <section class="arrayContainer2"></section>
-            <button>Se alle</button>
+            <button><a href="http://johanrives.dk/morrow/index.php/mad-i-naerheden/">Se alle</a></button>
         </div>
 
         <div class="titelWrap">
             <h2>Populært i dag</h2>
             <section class="arrayContainer3"></section>
-            <button>Se alle</button>
+            <button><a href="http://johanrives.dk/morrow/index.php/populaert-i-dag/">Se alle</a></button>
         </div>
 
         <template>

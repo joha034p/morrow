@@ -29,7 +29,7 @@ get_header();
         <div class="titelWrap">
             <h2>I nærheden</h2>
             <section class="arrayContainer2"></section>
-            <button>Se alle</button>
+            <button><a href="http://johanrives.dk/morrow/index.php/mad-i-naerheden/">Se alle</a></button>
         </div>
 
         <template>

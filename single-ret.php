@@ -8,6 +8,9 @@ get_header();
 
 <section id="primary" class="content-area">
     <main id="main" class="site-main">
+
+        <button onclick="goBack()">Tilbage</button>
+
         <article>
             <div class="retContainer">
                 <img class="pic" src="" alt="">
@@ -36,6 +39,11 @@ get_header();
         const url = "http://johanrives.dk/morrow/wp-json/wp/v2/ret/" + aktuelRet;
         var count = 1;
         var countEl = document.getElementById("count");
+
+
+        function goBack() {
+            window.history.back();
+        }
 
         function plus() {
             count++;

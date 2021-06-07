@@ -8,9 +8,6 @@ get_header();
 <?php the_content(); ?>
 
 <style>
-    .arrayContainer {
-        margin: 200px;
-    }
 
 </style>
 
@@ -21,9 +18,7 @@ get_header();
 
         <template>
             <article class="kat_article_container">
-                <div class="katImgContainer">
-                    <img src="" alt="">
-                </div>
+                <img src="" alt="">
                 <div class="txt_container">
                     <h2 class="kategori"></h2>
                 </div>
