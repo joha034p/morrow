@@ -1,0 +1,451 @@
+/*
+CSS Dokument
+Theme Name: Inspiro Child Theme Morrow
+Template: inspiro
+Author: Gruppe 18
+Version: 1.1.0
+Description: Morrow Inspiro Child Theme
+*/
+
+/*design af knapper*/
+main button {
+    flex-grow: 1;
+    border-radius: 10px;
+    color: white;
+    background-color: #07ba8a;
+    border: none;
+}
+
+.elementor-widget-wrap img {
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+}
+
+.article_container,
+.popuImg {
+    border-radius: 10px;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+}
+
+/*
+.popuImg:nth-child(1) {
+    background-image: url(assets/images/redcurry.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.popuImg:nth-child(2) {
+    background-image: url(assets/images/burger.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.popuImg:nth-child(3) {
+    background-image: url(assets/images/butterchicken.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.popuImg:nth-child(4) {
+    background-image: url(assets/images/katpasta.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.popuImg:nth-child(5) {
+    background-image: url(assets/images/padthai.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.popuImg:nth-child(6) {
+    background-image: url(assets/images/katsushi.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.popuImgWrap {
+    display: grid;
+    grid-gap: 20.1px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding-bottom: 40px;
+}
+*/
+
+h1 {
+    text-align: center;
+}
+
+#post-120 > header > div > h1 {
+    display: none;
+}
+
+.entry-title {
+    display: none;
+}
+
+.se_alle {
+    margin: auto;
+}
+
+.kategorier {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    text-align: center;
+    padding: 0;
+}
+
+
+
+.filter:focus {
+    background-color: #db093b;
+    color: white;
+}
+
+#recent-posts-2 > ul > li > a:hover {
+    color: yellow;
+}
+
+#recent-comments-2 > h3 {
+    display: none;
+}
+
+.titelWrap {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.podcastcontainer article {
+    cursor: pointer;
+}
+
+.elementor-widget-wrap img {
+    cursor: pointer;
+}
+
+.site-title {
+    font-size: 5rem;
+}
+
+#post-138 > header > div > h1 {
+    padding-top: 100px;
+}
+
+.custom-logo {
+    height: 60px;
+    width: auto;
+}
+
+.site-description {
+    text-shadow: 1px 1px 0px black;
+}
+
+.site-title:after {
+    border-bottom: 2px solid white;
+    opacity: .5;
+}
+
+.arrayContainer,
+.arrayContainer2,
+.arrayContainer3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center;
+}
+
+#primary {
+    max-width: none !important;
+}
+
+main button {
+    flex-grow: 1;
+}
+
+#filtrering {
+    padding-bottom: 70px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.txt_container .kortbeskrivelser {
+    font-size: 0.8rem;
+}
+
+.article_container {
+    position: relative;
+    flex-basis: 23%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.article_container .txt_container {
+    transition: .5s;
+}
+
+.article_container img,
+.retContainer .pic {
+    transition: .5s;
+    border-radius: 10px 10px 0 0;
+}
+
+.article_container img:hover {
+    opacity: .7;
+    transform: scale(1.05);
+}
+
+.imgContainer {
+    height: 250px;
+    overflow: hidden;
+}
+
+
+
+
+.kat_article_container img,
+.retContainer .pic {
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+}
+
+.article_container:hover {
+    cursor: pointer;
+}
+
+
+/*tekst grid i retternes preview*/
+.article_container .txt_container {
+    display: grid;
+    word-break: break-word;
+    text-align: left;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+}
+
+.txt_container h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    grid-column: 1/3;
+    grid-row: 1;
+    margin-top: 0;
+}
+
+.txt_container .restaurant {
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+.txt_container .afhentningstidspunkt {
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+.txt_container .pris {
+    grid-column: 1;
+    grid-row: 4;
+    font-weight: 600;
+    color: #07ba8a;
+}
+
+.txt_container .foerpris {
+    grid-column: 1;
+    grid-row: 4;
+    font-weight: 600;
+    color: #ce3030;
+    text-decoration: line-through;
+    text-align: end;
+}
+
+
+
+
+
+
+
+/*Ret single view*/
+
+.retContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 100px;
+}
+
+.ret_txt_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.ret_txt_container .retnavn {
+    grid-column: 1/3;
+    margin: 0;
+}
+
+.ret_txt_container .beskrivelse {
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+.ret_txt_container .afhentningstidspunkt {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: start;
+}
+
+.ret_txt_container .pris {
+    grid-column: 1;
+    grid-row: 5;
+    font-weight: 600;
+    color: #07ba8a;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.ret_txt_container .foerpris {
+    grid-column: 1;
+    grid-row: 5;
+    font-weight: 600;
+    color: #ce3030;
+    text-decoration: line-through;
+    text-align: start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ret_txt_container .bestil {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.ret_txt_container #input_div {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+#count {
+    text-align: center;
+}
+
+
+
+/*
+.ret_txt_container .antalRetter {
+    grid-column: 2;
+    grid-row: 6;
+}
+*/
+
+
+
+
+
+
+
+
+
+/*Burger menu*/
+side-nav__scrollable-container {
+    background-color: #ffffffd1;
+}
+
+#text-6 > div.textwidget > p,
+#text-7 > div.textwidget {
+    color: #07ba8a;
+}
+
+
+
+/*fjern pause knap på forsiden*/
+#wp-custom-header-video-button {
+    display: none;
+}
+
+/*fjern linje under alle knapper*/
+.elementor-button {
+    text-decoration: none !important;
+}
+
+/*baggrundsbillede forside - "Fordele ved Morrow"*/
+#post-18 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-1f59ced.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > div {
+    background-image: url(assets/images/redcurry.jpg);
+}
+
+/*main menu*/
+.navbar {
+    background: #f3f3f3c4 !important;
+    color: #07ba8a;
+}
+
+
+#content {
+    padding: 0;
+}
+
+.elementor-widget-wrap img {
+    box-shadow: none !important;
+}
+
+/*søgefunktion*/
+.sb-search .sb-search-button-close .sb-icon-search .svg-icon,
+.sb-search .sb-search-button-open .sb-icon-search .svg-icon {
+    fill: #07ba8a;
+}
+
+/*burger menu icon*/
+.navbar-toggle .icon-bar {
+    background: #07ba8a;
+}
+
+/*burger menu baggrund*/
+.side-nav__scrollable-container {
+    background-color: #101010cf;
+}
+
+/*udforsk drop down pil*/
+.navbar-nav .menu-item-has-children .svg-icon {
+    fill: #07ba8a;
+}
+
+/*drop down menu*/
+.navbar-nav ul {
+    background: #3a3a3a9c;
+}
+
+/*drop down menu txt*/
+.navbar-nav ul a {
+    color: #07ba8a;
+}
+
+/*streg under valgt menupunkt*/
+.navbar-nav > li.current-menu-item > a,
+.navbar-nav > li.current-menu-parent > a,
+.navbar-nav > li.current_page_item > a,
+.navbar-nav > li.current_page_parent > a {
+    border-bottom: 1px solid #07ba8a;
+}
+
+
+
+/**/
