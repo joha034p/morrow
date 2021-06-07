@@ -7,6 +7,13 @@ get_header();
 ?>
 <?php the_content(); ?>
 
+<style>
+    .arrayContainer {
+        margin: 200px;
+    }
+
+</style>
+
 <section id="primary" class="content-area">
     <main id="main" class="site-main inner-wrap">
 
@@ -14,7 +21,9 @@ get_header();
 
         <template>
             <article class="kat_article_container">
-                <img src="" alt="">
+                <div class="katImgContainer">
+                    <img src="" alt="">
+                </div>
                 <div class="txt_container">
                     <h2 class="kategori"></h2>
                 </div>

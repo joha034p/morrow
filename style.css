@@ -276,6 +276,12 @@ main button {
     text-align: end;
 }
 
+.katImgContainer {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
 
 
 
